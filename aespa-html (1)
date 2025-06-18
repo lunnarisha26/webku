@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grup Kpop aespa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #1a1a2e;
+      color: #f0f0f0;
+    }
+    header {
+      text-align: center;
+      padding: 20px 10px;
+      background-color: #5a31f4;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 30px;
+      background-color: #2c2c54;
+      padding: 15px 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      margin-top: 0;
+      color: #c39aff;
+    }
+    p {
+      line-height: 1.5;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .member {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #453a94;
+      padding-bottom: 10px;
+    }
+    .member:last-child {
+      border-bottom: none;
+    }
+    .member-name {
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #d7bcf2;
+    }
+    .member-role {
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #b4a1e7;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Grup Kpop aespa</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Tentang aespa</h2>
+      <p>
+        aespa adalah grup musik perempuan asal Korea Selatan yang dibentuk oleh SM Entertainment. Grup ini debut pada tahun 2020 dan terdiri dari empat anggota yaitu Karina, Winter, Giselle, dan Ningning. Mereka dikenal dengan konsep futuristik dan teknologi digital dalam musik dan penampilan mereka.
+      </p>
+    </section>
+    <section>
+      <h2>Anggota Grup</h2>
+      <div class="member">
+        <div class="member-name">Karina</div>
+        <div class="member-role">Leader & Main Dancer</div>
+        <p>
+          Karina adalah pemimpin aespa dengan kemampuan menari yang sangat baik dan karisma yang kuat di panggung.
+        </p>
+      </div>
+      <div class="member">
+        <div class="member-name">Winter</div>
+        <div class="member-role">Main Vocalist & Lead Dancer</div>
+        <p>
+          Winter memiliki suara yang jernih dan tarian yang enerjik, menjadi salah satu daya tarik utama grup.
+        </p>
+      </div>
+      <div class="member">
+        <div class="member-name">Giselle</div>
+        <div class="member-role">Main Rapper & Vocalist</div>
+        <p>
+          Giselle dikenal dengan rap yang unik dan kemampuan menyanyi dalam bahasa Korea dan Inggris.
+        </p>
+      </div>
+      <div class="member">
+        <div class="member-name">Ningning</div>
+        <div class="member-role">Main Vocalist & Maknae</div>
+        <p>
+          Ningning merupakan vokalis utama dengan suara yang kuat dan merupakan anggota termuda dalam grup.
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>Prestasi</h2>
+      <ul>
+        <li>Debut resmi pada November 2020 dengan lagu "Black Mamba".</li>
+        <li>Beberapa kali memenangkan penghargaan rookie terbaik.</li>
+        <li>Menjadi salah satu grup Kpop paling populer di dunia saat ini.</li>
+      </ul>
+    </section>
+  </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+
